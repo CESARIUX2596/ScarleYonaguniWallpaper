@@ -1,0 +1,6 @@
+Videos should be in .WEBM format
+ScarleNormal.webm
+ScarleDark.webm
+
+Full resolution [ Normal ] [ Camera version ] -> ScarleNormal.webm
+Full resolution [ Dark ] [ Camera version ] -> ScarleDark.webm

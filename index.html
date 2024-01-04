@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        #ScarleDark {
+            opacity: 0;
+            z-index: 2;
+        }
+
+        #ScarleNormal {
+            opacity: 1;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <video autoplay loop muted class="bg" id="ScarleDark">
+        <source src="./assets/ScarleDark.webm" type="video/mp4">
+    </video>
+    <video autoplay loop muted class="bg" id="ScarleNormal">
+        <source src="./assets/ScarleNormal.webm" type="video/mp4">
+    </video>
+    <h1>Scarle</h1>
+    <script>
+        document.addEventListener('mousedown', function () {
+            document.getElementById('ScarleDark').style.opacity = '1';
+            document.getElementById('ScarleNormal').style.opacity = '0';
+        });
+        document.addEventListener('mouseup', function () {
+            document.getElementById('ScarleDark').style.opacity = '0';
+            document.getElementById('ScarleNormal').style.opacity = '1';
+        });
+    </script>
+</body>
+
+</html>
