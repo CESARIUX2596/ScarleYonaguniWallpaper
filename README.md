@@ -11,4 +11,4 @@ Full resolution [ Dark ] [ Camera version ] -> ScarleDark.webm
 - Convert the videos to `.webm` format.
 - Rename the videos to `ScarleNormal.webm` and `ScarleDark.webm`.
 - Create a new project in Wallpaper Engine.
-- Drag in the `index.html` file to the editor.
+- Drag the `index.html` file to the editor.
